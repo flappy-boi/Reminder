@@ -2,7 +2,7 @@
 Current Version: 2.0.1r
 
 
-=
+
 Included files
 =
 
@@ -18,7 +18,7 @@ data\6.csv      Generic schedule for Saturday
 
 
 
-=
+
 Quick Start Guide
 =
 
@@ -33,7 +33,7 @@ To use the program:
 
 
 
-=
+
 Customisation
 =
 
@@ -53,7 +53,7 @@ Customisation
 
 
 
-=
+
 Changelog
 =
 
