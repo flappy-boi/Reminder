@@ -2,9 +2,10 @@
 Current Version: 2.0.1r
 
 
-================================================
+=
 Included files
-================================================
+=
+
 readme.md       This file
 Reminder.exe    Main program
 data\0.csv      Generic schedule for Sunday
@@ -17,9 +18,9 @@ data\6.csv      Generic schedule for Saturday
 
 
 
-================================================
-Instructions
-================================================
+=
+Quick Start Guide
+=
 
 To use the program:
   - Open Reminder.exe
@@ -31,17 +32,20 @@ To use the program:
  * Only if current time < last event
 
 
-To edit the schedules:
-  - Open the .csv files with suitable software.
-    - e.g. Excel
 
-  - Fields
-    - 1st column: Time of event (in min. of day)
-      - e.g. '598' for 9:58, '914' for 15:14
-    - 2nd column: Name of event (Max. 10 chars)
-      - e.g. 'Lunch', 'M26English'
-    - Note: The last row must be 1440 (24:00)
-            for it to work properly.
+=
+Customisation
+=
+
+- Open the .csv files with suitable software.
+  - e.g. Excel
+- Fields
+  - 1st column: Time of event (in min. of day)
+    - e.g. '598' for 9:58, '914' for 15:14
+  - 2nd column: Name of event (Max. 10 chars)
+    - e.g. 'Lunch', 'M26English'
+  - Note: The last row must be 1440 (24:00)
+          for it to work properly.
 
   - You may just edit the generic schedules.
   - Save the file (Ctrl + S) and it will update
@@ -49,9 +53,9 @@ To edit the schedules:
 
 
 
-================================================
+=
 Changelog
-================================================
+=
 
 2.0.1r                                18/11/2022
 ------------------------------------------------
