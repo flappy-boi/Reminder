@@ -1,20 +1,21 @@
 # Reminder
-Current Version: 2.0.1r
+Preview Release: 2.1a
+Stable Release: 2.0.1r
 
 
 
 Included files
 =
 
-readme.md       This file
-Reminder.exe    Main program
-data\0.csv      Generic schedule for Sunday
-data\1.csv      Generic schedule for Monday
-data\2.csv      Generic schedule for Tuesday
-data\3.csv      Generic schedule for Wednesday
-data\4.csv      Generic schedule for Thursday
-data\5.csv      Generic schedule for Friday
-data\6.csv      Generic schedule for Saturday
+	readme.md       This file
+	Reminder.exe    Main program
+	data\0.csv      Generic schedule for Sunday
+	data\1.csv      Generic schedule for Monday
+	data\2.csv      Generic schedule for Tuesday
+	data\3.csv      Generic schedule for Wednesday
+	data\4.csv      Generic schedule for Thursday
+	data\5.csv      Generic schedule for Friday
+	data\6.csv      Generic schedule for Saturday
 
 
 
@@ -29,7 +30,8 @@ To use the program:
     - Next event *, and
     - Time to next event * (in minutes)
   - Double click the bottom line to exit
- * Only if current time < last event
+  
+  \* Only if current time < last event
 
 
 
@@ -41,7 +43,7 @@ Customisation
   - e.g. Excel
 - Fields
   - 1st column: Time of event (in min. of day)
-    - e.g. '598' for 9:58, '914' for 15:14
+    - e.g. '598' for 9:58, '980' for 16:20
   - 2nd column: Name of event (Max. 10 chars)
     - e.g. 'Lunch', 'M26English'
   - Note: The last row must be 1440 (24:00)
