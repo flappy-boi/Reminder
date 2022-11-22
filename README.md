@@ -1,9 +1,9 @@
 Reminder
 ================================================
 
-Preview Release: 2.1a (22/11/2022)
+Preview Release: [2.1a (22/11/2022)](https://github.com/flappy-boi/Reminder/raw/master/2.1a-prerel.zip)
 
-Stable Release: 2.0.1r (18/11/2022)
+Stable Release: [2.0.1r (18/11/2022)](https://github.com/flappy-boi/Reminder/raw/master/201r.zip)
 
 
 
