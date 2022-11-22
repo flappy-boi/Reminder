@@ -58,7 +58,7 @@ Customisation
 Changelog
 ================================================
 
-2.1a            Preview Release       18/11/2022
+2.1a            Preview Release       22/11/2022
 ------------------------------------------------
 - Shows version on startup.
 - Double click clock to lock opague.
