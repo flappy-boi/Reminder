@@ -2,6 +2,7 @@ Reminder
 ================================================
 
 Preview Release: 2.1a (22/11/2022)
+
 Stable Release: 2.0.1r (18/11/2022)
 
 
@@ -28,7 +29,7 @@ Quick Start Guide
 ================================================
 
 To use the program:
-  - Open Reminder.exe
+  - Open `Reminder.exe`
   - It should tell you:
     - Current time,
     - Next event[^1], and
@@ -41,16 +42,12 @@ To use the program:
 Customisation
 ================================================
 
-- Open the .csv files with suitable software.
+- Open the `.csv files` with suitable software.
   - e.g. Excel
 - Fields
-  - 1st column: Time of event (in min. of day)
-    - e.g. '598' for 9:58, '980' for 16:20
-  - 2nd column: Name of event (Max. 10 chars)
-    - e.g. 'Lunch', 'M26English'
-  - Note: The last row must be 1440 (24:00)
-          for it to work properly.
-
+  - 1st column: Time of event (in min. of day)[^2]
+  - 2nd column: Name of event (Max. 10 chars)[^3]
+  - Note: The last row must be `1440` (24:00) for it to work properly.
   - You may just edit the generic schedules.
   - Save the file (Ctrl + S) and it will update
     instantly.
@@ -78,7 +75,7 @@ Changelog
 2.0b                                  14/11/2022
 ------------------------------------------------
 - Supports editing schedule.
-  - Data saved in *.csv files. 
+  - Data saved in `*.csv` files. 
 - Modified colour coding.
   - Displayed in the clock.
 
@@ -129,3 +126,5 @@ Changelog
 
 
 [^1]: Only if current time < last event
+[^2]: Hours*60 + Minutes (e.g. `598` for 9:58 and `980` for 16:20.)
+[^3]: e.g. `Lunch` and `H01History` would work.
