@@ -1,43 +1,45 @@
-# Reminder
-Preview Release: 2.1a
-Stable Release: 2.0.1r
+Reminder
+================================================
+
+Preview Release: 2.1a (22/11/2022)
+Stable Release: 2.0.1r (18/11/2022)
+
 
 
 
 Included files
-=
-
-	readme.md       This file
-	Reminder.exe    Main program
-	data\0.csv      Generic schedule for Sunday
-	data\1.csv      Generic schedule for Monday
-	data\2.csv      Generic schedule for Tuesday
-	data\3.csv      Generic schedule for Wednesday
-	data\4.csv      Generic schedule for Thursday
-	data\5.csv      Generic schedule for Friday
-	data\6.csv      Generic schedule for Saturday
+================================================
+```
+readme.md       This file
+Reminder.exe    Main program
+data\0.csv      Generic schedule for Sunday
+data\1.csv      Generic schedule for Monday
+data\2.csv      Generic schedule for Tuesday
+data\3.csv      Generic schedule for Wednesday
+data\4.csv      Generic schedule for Thursday
+data\5.csv      Generic schedule for Friday
+data\6.csv      Generic schedule for Saturday
+```
 
 
 
 
 Quick Start Guide
-=
+================================================
 
 To use the program:
   - Open Reminder.exe
   - It should tell you:
     - Current time,
-    - Next event *, and
-    - Time to next event * (in minutes)
+    - Next event[^1], and
+    - Time to next event[^1] (in minutes)
   - Double click the bottom line to exit
-  
-  \* Only if current time < last event
 
 
 
 
 Customisation
-=
+================================================
 
 - Open the .csv files with suitable software.
   - e.g. Excel
@@ -57,9 +59,16 @@ Customisation
 
 
 Changelog
-=
+================================================
 
-2.0.1r                                18/11/2022
+2.1a            Preview Release       18/11/2022
+------------------------------------------------
+- Shows version on startup.
+- Double click clock to lock opague.
+- Manual mode module added. (Non functional)
+
+
+2.0.1r          Stable Release        18/11/2022
 ------------------------------------------------
 - Generic *.csv files added.
 - Supports other devices with different screen-
@@ -116,3 +125,7 @@ Changelog
 1.0a                                  24/10/2022
 ------------------------------------------------
 - Original version.
+
+
+
+[^1]: Only if current time < last event
