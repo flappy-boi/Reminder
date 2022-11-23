@@ -1,9 +1,9 @@
 Reminder
 ================================================
 
-Preview Release: [2.1a (22/11/2022)](https://github.com/flappy-boi/Reminder/raw/master/2.1a-prerel.zip)
+Preview Release: 2.1.0.1a (22/11/2022) - [Download Here](https://github.com/flappy-boi/Reminder/raw/master/2.1.0.1a.zip)
 
-Stable Release: [2.0.1r (18/11/2022)](https://github.com/flappy-boi/Reminder/raw/master/201r.zip)
+Stable Release: 2.0.1r (18/11/2022) - [Download Here](https://github.com/flappy-boi/Reminder/raw/master/201r.zip)
 
 
 
@@ -28,18 +28,17 @@ data\6.csv      Generic schedule for Saturday
 Quick Start Guide
 ================================================
 
-To use the program:
-  - Open `Reminder.exe`
-  - It should tell you:
-    - Current time,
-    - Next event[^1], and
-    - Time to next event[^1] (in minutes)
-  - Double click the bottom line to exit
+- Open `Reminder.exe`
+- It should tell you:
+  - Current time,
+  - Next event[^1], and
+  - Time to next event[^1] (in minutes)
+- Double click the bottom line to exit
 
 
 
 
-Customisation
+Personalisation of the Schedules
 ================================================
 
 - Open the `.csv files` with suitable software.
@@ -58,6 +57,9 @@ Customisation
 Changelog
 ================================================
 
+2.1.0.1a                              23/11/2022
+------------------------------------------------
+- Typo fixed.
 2.1a            Preview Release       22/11/2022
 ------------------------------------------------
 - Shows version on startup.
