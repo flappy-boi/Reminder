@@ -1,7 +1,7 @@
 Reminder
 ================================================
 
-Preview Release: 2.1.0.1a (22/11/2022) - [Download Here](https://github.com/flappy-boi/Reminder/raw/master/2.1.0.1a.zip)
+Preview Release: 2.1.1 (24/11/2022) - [Download Here](https://github.com/flappy-boi/Reminder/raw/master/2.1.1.zip)
 
 Stable Release: 2.0.1r (18/11/2022) - [Download Here](https://github.com/flappy-boi/Reminder/raw/master/201r.zip)
 
@@ -42,7 +42,7 @@ Personalisation of the Schedules
 ================================================
 
 - Open the `.csv files` with suitable software.
-  - e.g. Excel
+  - e.g. MS Excel, Notepad
 - Fields
   - 1st column: Time of event (in min. of day)[^2]
   - 2nd column: Name of event (Max. 10 chars)[^3]
@@ -57,9 +57,15 @@ Personalisation of the Schedules
 Changelog
 ================================================
 
+2.1.1                                 24/11/2022
+------------------------------------------------
+- Fixed inacivity bug.
+  + It was showing '(Inactive)' on a new day.
+
+
 2.1.0.1a                              23/11/2022
 ------------------------------------------------
-- Typo fixed.
+- Fixed typo in code.
 
 
 2.1a            Preview Release       22/11/2022
@@ -79,42 +85,42 @@ Changelog
 2.0b                                  14/11/2022
 ------------------------------------------------
 - Supports editing schedule.
-  - Data saved in `*.csv` files. 
+  + Data saved in *.csv files. 
 - Modified colour coding.
-  - Displayed in the clock.
+  + Displayed in the clock.
 
 
 1.4                                   08/11/2022
 ------------------------------------------------
 - Inactivity introduced.
-  - Clears the display when its inactive.
+  + Clears the display when its inactive.
 
 
 1.3                                   05/11/2022
 ------------------------------------------------
 - Hover function added to line 1.
-  - Background to blue to increase readability
+  + Background to blue to increase readability
     over light background.
 
 
 1.2.1                                 03/11/2022
 ------------------------------------------------
 - Colour coding modified for better readability.
-  - Amber -> Gold
-  - Green -> Lime
+  + Amber -> Gold
+  + Green -> Lime
 
 
 1.2                                   02/11/2022
 ------------------------------------------------
 - Colour-coding implemented.
-  - 6 minutes -> Amber
-  - 5 minutes -> Green
+  + 6 minutes -> Amber
+  + 5 minutes -> Green
 
 
 1.1.1                                 27/10/2022
 ------------------------------------------------
 - Countdown bug fixed.
-  - Changed datatype from 'DateTime' to 'int'.
+  + Changed datatype from 'DateTime' to 'int'.
 
 
 1.1                                   26/10/2022
@@ -126,6 +132,8 @@ Changelog
 1.0a                                  24/10/2022
 ------------------------------------------------
 - Original version.
+
+
 
 
 
